@@ -1,0 +1,31 @@
+baseURL = "https://peterampazzo.github.io/project-website-template/"
+title = "The Spotify Artist Network"
+description = "This is a project description"
+relativeURLs = true
+theme = "theme" 
+[params]
+    authors = ["Anders Nørskov", "Terry Ho"]
+    notebook = "/explainer-notebook.html"
+    data = "https://onedrive.live.com/?authkey=%21AOLljeio1XGAHII&id=1E26245DC2140BDB%21516411&cid=1E26245DC2140BDB"
+    github = "https://github.com/terryho618/ComSocSci22_Final"
+    [[params.nav]]
+        label = "Data"
+        link = "/data-description"
+    [[params.nav]]
+        label = "Network Analysis"
+        link = "/network-analysis"
+    [[params.nav]]
+        label = "Lyrics"
+        link = "/lyrics-analysis"
+    [[params.nav]]
+        label = "Louvain Network"
+        link = "/louvain-network"
+    [[params.nav]]
+        label = "Genre Network"
+        link = "/genre-network"
+    [[params.nav]]
+        label = "Sentiment Network"
+        link = "/sentiment-network"
+    [[params.nav]]
+        label = "Word Clouds"
+        link = "/word-clouds"
